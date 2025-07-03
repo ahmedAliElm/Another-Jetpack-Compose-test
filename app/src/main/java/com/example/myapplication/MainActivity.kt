@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import ads_mobile_sdk.h5
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -24,7 +25,9 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun ShowText(name: String) {
-    Text(text = "Hello $name.") // TextView
+    Text(
+        text = "Hello $name."
+    ) // TextView
 }
 
 
